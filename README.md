@@ -13,10 +13,10 @@ You need to have Java installed on your local machine.
 3. Run the game from the main class `Game.java`.
 
 ### How to Play
-- Use the W and S keys for player 1 to move the paddle up and down respectively.
-- Use the UP and DOWN arrow keys for player 2 to move the paddle up and down respectively.
-- Press ENTER to pause and resume the game.
-- Press R to reset or restart the game.
+- Use the `W` and `S` keys for player 1 to move the paddle up and down respectively.
+- Use the `UP` and `DOWN` arrow keys for player 2 to move the paddle up and down respectively.
+- Press `ENTER` to pause and resume the game.
+- Press `R` to reset or restart the game.
 
 The game never ends. 
 ### Built With
