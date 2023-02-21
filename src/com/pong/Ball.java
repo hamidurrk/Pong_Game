@@ -10,7 +10,6 @@ public class Ball {
 	private int x, y;
 	private int xVel, yVel;
 	private int speed = 5;
-	public boolean pauseState = false;
 	
 	public Ball() {
 		reset();
@@ -64,7 +63,7 @@ public class Ball {
 			paddle1.reset();
 			paddle2.reset();
 			try {
-				Thread.sleep(500); // Pause the thread for 1 second
+				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -78,7 +77,7 @@ public class Ball {
 			paddle1.reset();
 			paddle2.reset();
 			try {
-				Thread.sleep(500); // Pause the thread for 1 second
+				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
